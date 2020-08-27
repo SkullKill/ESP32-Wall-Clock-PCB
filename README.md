@@ -92,26 +92,26 @@ ESP32-Wall-Clock-schematics-03-V1.0.jpg
   
 PCB features
 
-• ESP32 Microprocessor
-• onboard, IO0 / Reset switches
-• breakout for UART (Programming/Serial monitor), i2c, SPI, 1-wire
-• 5V input via MicroUSB, USB Type-C, 2.1mm barrel, Screw Type Terminal
-• OR 5.6V to 26V if using Switchmode Reg, OR 6.4V-30V if using AMS1117-5.0 (input via 2.1mm barrel or Screw Type Terminal)
-• PCF8563T RTC Clock with CR2032 Coin Cell Battery
-• CP2102 USB to Serial, with Auto Reset (optional)
-• RTC clock
-• ALS-PT19 Light Intensity Sensor, to adjust Screen Brightness
-• AHT20 Temperature / Humidity Sensor
-• 1-Wire provision (possibility to add a number of DS18B20 temperature sensors)
-• Built in buzzer
-• 1-wire rail (possibility to add a number of DS18B20 temperature sensors)
-• 2 physical button, + 8 physical button via TM1638, using diode, so that multiple button can be pressed at the same time.
-• Ability to add external buttons.
-• 1 configurable status light. (IO 13)
-• 2 X TM1638 LED Segment Display Driver (in Common Anode Mode) [ one driving 6 digit, one driving 10 digit ]
-• 6 X 1.8" / 45mm Segment display for Time Display (Common Anode Mode)
-• 0.56" / 14.22mm Segment display for Date/Month / Temperature/Humidity (Common Anode Mode)
-• Micro SD Card Slot
-• Reverse polarity protection on 12V input
-• PTC Fuse
-• Level Shifter for ESP32 - TM1638 Comms
+* ESP32 Microprocessor
+* onboard, IO0 / Reset switches
+* breakout for UART (Programming/Serial monitor), i2c, SPI, 1-wire
+* 5V input via MicroUSB, USB Type-C, 2.1mm barrel, Screw Type Terminal
+* OR 5.6V to 26V if using Switchmode Reg, OR 6.4V-30V if using AMS1117-5.0 (input via 2.1mm barrel or Screw Type Terminal)
+* PCF8563T RTC Clock with CR2032 Coin Cell Battery
+* CP2102 USB to Serial, with Auto Reset (optional)
+* RTC clock
+* ALS-PT19 Light Intensity Sensor, to adjust Screen Brightness
+* AHT20 Temperature / Humidity Sensor
+* 1-Wire provision (possibility to add a number of DS18B20 temperature sensors)
+* Built in buzzer
+* 1-wire rail (possibility to add a number of DS18B20 temperature sensors)
+* 2 physical button, + 8 physical button via TM1638, using diode, so that multiple button can be pressed at the same time.
+* Ability to add external buttons.
+* 1 configurable status light. (IO 13)
+* 2 X TM1638 LED Segment Display Driver (in Common Anode Mode) [ one driving 6 digit, one driving 10 digit ]
+* 6 X 1.8" / 45mm Segment display for Time Display (Common Anode Mode)
+* 0.56" / 14.22mm Segment display for Date/Month / Temperature/Humidity (Common Anode Mode)
+* Micro SD Card Slot
+* Reverse polarity protection on 12V input
+* PTC Fuse
+* Level Shifter for ESP32 - TM1638 Comms
