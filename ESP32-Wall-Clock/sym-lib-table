@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name pi-template)(type Legacy)(uri ${KIPRJMOD}/pi-template.lib)(options "")(descr ""))
+  (lib (name ESP32-Wall-Clock)(type Legacy)(uri ${KIPRJMOD}/ESP32-Wall-Clock.lib)(options "")(descr ""))
+  (lib (name ESP32-Wall-Clock-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP32-Wall-Clock-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K HCMOS SR 3State
+F http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
+$ENDCMP
+#
+$CMP 74HCT595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K HCTMOS SR 3State
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
+$ENDCMP
+#
+$CMP 74LS595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K TTL SR 3State
+F http://www.ti.com/lit/gpn/sn74ls595
+$ENDCMP
+#
+$CMP AHT20
+D Temperature and humidity module
+K digital temperature humidity sensor
+F http://www.aosong.com/userfiles/files/media/AHT20%E8%8B%B1%E6%96%87%E7%89%88%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20A0%202020-4-16.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32D
+D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Card_9P
+F https://datasheet.lcsc.com/szlcsc/2002271812_XKB-Connectivity-XKTF-015-N_C381082.pdf
+$ENDCMP
+#
+$CMP SN450561N
+D Double 7 segment 0.56" 14.22mm red LED common anode
+K display LED 7-segment
+F https://datasheet.lcsc.com/szlcsc/1811151433_ARKLED-Wuxi-ARK-Tech-Elec-SN450561N_C193143.pdf
+$ENDCMP
+#
+$CMP TM1638-LED-Driver
+D LED Segment Display Driver
+K LED Segment Display Driver
+F https://raw.githubusercontent.com/maxint-rd/TM16xx/master/documents/LED%20driver%20TM1638en.pdf
+$ENDCMP
+#
+$CMP TPS54240
+D 2.5A, Step Down DC-DC Converter with Low IQ, 3.5-42V Input Voltage, MSOP-10
+K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
+F https://datasheet.lcsc.com/szlcsc/1810221720_Texas-Instruments-TPS54240DGQR_C53213.pdf
+$ENDCMP
+#
+#End Doc Library

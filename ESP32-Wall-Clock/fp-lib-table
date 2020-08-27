@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name pi-template)(type KiCad)(uri ${KIPRJMOD}/pi-template.pretty)(options "")(descr ""))
+  (lib (name ESP32-Wall-Clock)(type KiCad)(uri ${KIPRJMOD}/ESP32-Wall-Clock.pretty)(options "")(descr ""))
+)
